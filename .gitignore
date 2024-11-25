@@ -1,0 +1,42 @@
+/build/
+
+# 编译生成的文件
+*.o
+*.obj
+*.a
+*.so
+*.exe
+*.out
+*.dSYM
+*.dll
+
+# CMake 构建文件
+CMakeFiles/
+CMakeCache.txt
+Makefile
+cmake_install.cmake
+CMakeLists.txt.user
+CTestTestfile.cmake
+
+# IDE 文件
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# 临时文件
+*~
+*.swp
+*.bak
+*.tmp
+
+# 日志文件
+*.log
+
+# 压缩文件
+*.tar.gz
+*.zip
+
+# 操作系统生成的文件
+Thumbs.db
+.DS_Store
